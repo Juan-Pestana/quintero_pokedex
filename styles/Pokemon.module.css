@@ -1,0 +1,73 @@
+.pokemon {
+  background-color: #eee;
+  border-radius: 10px;
+  box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+.img_container {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+.pokemon .img_container img {
+  max-width: 90%;
+  margin-top: 20px;
+}
+
+.pokemon .info {
+  margin-top: 20px;
+}
+
+.pokemon .info .number {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 0.8em;
+}
+
+.pokemon .info .name {
+  margin: 15px 0 7px;
+  letter-spacing: 1px;
+}
+
+.variant {
+  padding: 10px 20px;
+  display: inline-block;
+  background-color: rgb(121, 120, 121);
+  color: #fff;
+  margin: 10px 4px;
+  border-radius: 4px;
+}
+
+.data {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.habilities {
+  display: flex;
+}
+
+.hability {
+  padding: 10px 20px;
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(121, 120, 121);
+  color: rgb(109, 107, 107);
+  margin: 10px 4px;
+  border-radius: 4px;
+}
+
+.ev_img {
+  background-color: rgb(177, 177, 177);
+}

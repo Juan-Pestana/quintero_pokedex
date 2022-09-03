@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  background-color: rgb(53, 52, 52);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imageContainer {
+  margin: 0 5rem;
+}
+
+.links {
+  display: flex;
+  margin: 0 5rem;
+  color: #ffff;
+}
+.links li {
+  padding: 0 10px;
+}
+
+@media (max-width: 600px) {
+  .imageContainer {
+    display: none;
+  }
+  .navbar {
+    height: 53px;
+    justify-content: center;
+  }
+  .links {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    color: #ffff;
+    margin: auto;
+    padding: 0;
+  }
+}

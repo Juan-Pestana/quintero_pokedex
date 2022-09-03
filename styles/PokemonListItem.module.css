@@ -1,0 +1,55 @@
+.pokeball {
+  width: 80%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 10px solid rgb(0, 0, 0);
+  position: relative;
+  margin: 1rem auto auto auto;
+  transition: all 0.2s ease-in;
+}
+.pokeball:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(4px 6px 20px rgba(0, 0, 0, 0.5));
+}
+.pokeball div:first-child {
+  background-color: red;
+  height: 50%;
+  border-bottom: 5px solid black;
+  position: relative;
+}
+.pokeball :nth-child(2) {
+  border-top: 5px solid black;
+  text-align: center;
+  height: 50%;
+  padding: 3rem;
+  background-color: #fff;
+}
+
+.innerball {
+  position: absolute;
+  height: 30%;
+  aspect-ratio: 1/1;
+  border: 10px solid black;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+  margin-left: 50%;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  transform: translateX(-50%);
+  background: #ffff;
+  border-radius: 50%;
+}
+
+.image_container {
+  position: relative;
+  height: 100%;
+}
+
+.image {
+  z-index: 9999;
+}
